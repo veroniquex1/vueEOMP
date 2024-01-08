@@ -1,30 +1,48 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <main class="container-fluid">
+    <NavBar>
+
+    </NavBar>
+
+    <Footer>
+
+    </Footer>
+
+    <router-view/>
+  </main>
+
+
+
+  <!-- <nav> -->
+    <!-- <router-link to="/">Home</router-link> |
+    <router-link to="/about">About</router-link> |
+    <router-link to="/resume">Resume</router-link> |
+    <router-link to="/project">Projects</router-link>|
+    <router-link to="/testimonial">Testimonial</router-link> |
+    <router-link to="/reachme">Reach Me</router-link> -->
+    <!-- router-link is the same as an a tag  -->
+    <!-- to is the path for that page similar to the href -->
+  <!-- </nav> -->
+  <!-- router view alllows the rendered pages to be seen -->
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+<script>
+import Footer from './components/Footer.vue';
+import NavBar from './components/NavBar.vue';
+
+export default{
+  components:{
+    Footer,
+    NavBar
+    
+
+  }
 }
 
-nav {
-  padding: 30px;
-}
+</script>
 
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
+<style >
 
-nav a.router-link-exact-active {
-  color: #42b983;
-}
+/* src="@/assets/css/style.css" */
 </style>
+
