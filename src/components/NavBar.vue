@@ -1,9 +1,9 @@
 <template>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbar">
    <div class="container-fluid">
      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
      <router-link to="/">
-         <img class="img-fluid" src="https://drive.google.com/uc?id=1783jHj9J4C9RwccJVdQbVaVAa4uYgl06" alt="logo" id="logo">
+         <img class="img-fluid" src="https://drive.google.com/uc?id=1783jHj9J4C9RwccJVdQbVaVAa4uYgl06" alt="logo" id="logo" loading="lazy">
      </router-link>
      <!-- replace the a tag with the router link for the home page -->
  
@@ -64,5 +64,23 @@
   width: 2rem;
   aspect-ratio: 1/1;
 }
+
+@import url('https://fonts.cdnfonts.com/css/star-jedi');
+@import url('https://fonts.cdnfonts.com/css/star-wars');
+
+*, 
+*::before, 
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#navbar{
+  font-family: 'Star Wars', sans-serif;
+  
+}
+
+
  
  </style>
