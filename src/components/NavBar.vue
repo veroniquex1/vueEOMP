@@ -76,11 +76,14 @@
   box-sizing: border-box;
 }
 
-#navbar{
+#navbar {
   font-family: 'Star Wars', sans-serif;
   
 }
 
+.navitem {
+  color: blue !important;
+}
 
  
  </style>
