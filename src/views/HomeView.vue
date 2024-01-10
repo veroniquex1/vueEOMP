@@ -1,28 +1,24 @@
-<template>
+<template class="homePage">
   <div class="home">
   </div>
 
-  <!-- Main Content left side -->
-  <div class="row g-0" id="homeContent">
-    <div class="col g-0">
-      <div class="left">
-        <h2>left</h2>
-      </div>
-
-    </div>
-
-    <!-- Main content right side -->
-    <div class="col g-0">
-      <div class="right">
-        <h2>right</h2>
-      </div>
-
-    </div>
+  <!-- Main Content -->
+<div class="row" id="homeContent">
+  
+  <div class="star-container">
+    <h1>Hi</h1>
+    <!-- <h1>
+      <a href="" class="typewrite" data-period="2000" data-type='[ "Hi, Im Veronique.", "I am Creative.", "I Love Design.", "I Love to Develop." ]'>
+        <span class="wrap"></span>
+      </a>
+    </h1> -->
   </div>
+  <div class="twinkle">
+  </div>
+</div>
 </template>
 
 <script>
-// @ is an alias to /src
 
 export default {
   name: 'HomeView',
@@ -30,21 +26,55 @@ export default {
     
   }
 }
+
+
 </script>
 
 <style scoped >
 
-.left, .right{
-  height: 100vh;;
+@import url('https://fonts.cdnfonts.com/css/star-jedi');
+@import url('https://fonts.cdnfonts.com/css/star-wars');
+
+*, 
+*::before, 
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#homeContent{
+  font-family: 'Star Wars', sans-serif;
+  
+}
+@keyframes move-background {
+  from {
+    left: -1000px
+  }
+
+  to {
+    left: 1000px;
+  }
+}
+
+.twinkle {
+  animation: move-background 100s linear infinite;
+  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/twinkling.png') repeat;
+}
+
+.star-container {
+  background: black url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png') repeat;
+}
+
+.twinkle, .star-container {
+  height: 100%;
+  position: absolute; 
   width: 100%;
 }
 
-.left{
-  background: linear-gradient(rgb(27, 69, 207), rgb(114, 39, 114));
-}
-
-.right{
-  background: linear-gradient(rgb(220,2,3), rgb(114, 39, 114));
+h1{
+  font-size: 80px;
+  color: red;
 }
 
 </style>
