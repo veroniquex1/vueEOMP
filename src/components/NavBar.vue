@@ -3,7 +3,7 @@
    <div class="container-fluid">
      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
      <router-link to="/">
-         <img class="img-fluid" src="#" alt="logo">
+         <img class="img-fluid" src="https://drive.google.com/uc?id=1783jHj9J4C9RwccJVdQbVaVAa4uYgl06" alt="logo" id="logo">
      </router-link>
      <!-- replace the a tag with the router link for the home page -->
  
@@ -60,5 +60,9 @@
  </script>
  
  <style scoped>
+#logo{
+  width: 2rem;
+  aspect-ratio: 1/1;
+}
  
  </style>

@@ -34,6 +34,7 @@ export default createStore({
     setProjects(state, value) {
       state.projects = value;
   },
+},
   actions: {
     async fetchJobTitle(context){
       let res = await fetch(dataURL) 
