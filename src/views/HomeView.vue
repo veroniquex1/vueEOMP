@@ -106,4 +106,15 @@ h1{
   from { width: 0 }
   to { width: 100% }
 }
+.typingEffect {
+  animation: typing 2s steps(30) forwards;
+}
+@keyframes blink {
+  0%, 45% {
+    border-color: transparent;
+  }
+  50%, 100% {
+    border-color: white;
+  }
+}
 </style>
