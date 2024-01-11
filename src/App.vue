@@ -1,9 +1,10 @@
 <template>
   <main class="container-fluid">
     <NavBar/>
-    <Footer/>
-
+    
     <router-view/>
+    
+    <Footer/>
   </main>
 </template>
 
