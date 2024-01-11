@@ -1,5 +1,5 @@
 <template>
-  <div class="aboutContent">
+  <div class="aboutContent bg-black">
     <div class="star-container">
     <h1>ABoUT</h1>
   </div>
@@ -8,7 +8,7 @@
     <h1 class="glow">About</h1>
   
 
-  <div class="container" id="aboutCard">
+  <!-- <div class="container" id="aboutCard">
     <div class="card mb-3 " style="max-width: 1500px">
   <div class="row g-6">
     <div class="col-md-4">
@@ -22,15 +22,15 @@
     </div>
   </div>
 </div>
-  </div>
-    <!-- <div class="col" id="about-text">
+  </div> -->
+    <div class="col" id="about-text">
                 <p>
                   I’m <span class="fw-bolder">Veronique Nappie</span>, an aspiring full stack web developer. I
                   would consider myself introverted but highly ambitious. I am
                   not likely to wait for an opportunity to come to me but rather
                   create one and not give up until I achieve what I set out to.
                 </p>
-  </div> -->
+  </div>
 </div>
 </template>
 

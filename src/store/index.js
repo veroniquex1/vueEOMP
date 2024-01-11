@@ -1,13 +1,9 @@
-import { createStore } from 'vuex'
-const dataURL= 'https://veroniquex1.github.io/vueJSONData/data/'
-
+import { createStore } from 'vuex';
+import axios from 'axios';
 
 export default createStore({
   state: {
-    // define variables in state
-    // this is taken from the json data
-    jobTitle: null,
-    about: null,
+    resume: null,
     education: null,
     skills: null,
     testimonials: null,
@@ -16,34 +12,37 @@ export default createStore({
   getters: {
   },
   mutations: {
-    setJobTitle(state, value) {
-      state.jobTitle = value;
-  },
-    setAbout(state, value) {
-      state.about = value;
-  },
+    setResume(state, value) {
+      state.resume = value;
+    },
     setEducation(state, value) {
       state.education = value;
-  },
+    },
     setSkills(state, value) {
       state.skills = value;
-  },
+    },
     setTestimonials(state, value) {
       state.testimonials = value;
-  },
+    },
     setProjects(state, value) {
       state.projects = value;
+    },
   },
-},
   actions: {
-    async fetchJobTitle(context){
-      let res = await fetch(dataURL) 
-// function has async which is why you use async
-
-      let{jobTitle} = await res.json()
-      context.commit('setJobTitle', jobTitle)
-    }
+    fetchData({ commit }) {
+      axios.get('https://veroniquex1.github.io/vueJSONData/data/')
+        .then(res => {
+          const data = res.data;
+          commit('setEducation', data.education);
+          commit('setTestimonials', data.testimonials);
+          commit('setProjects', data.projects);
+          commit('setSkills', data.skills);
+        })
+        .catch(error => {
+          console.error('There was an error fetching data', error);
+        });
+    },
   },
   modules: {
   }
-})
+});
