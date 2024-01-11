@@ -33,7 +33,6 @@ export default createStore({
       try {
         let res = await fetch(dataURL)
         let {resume} = await res.json()
-        // once the value is updated, it saves the value using commit
         context.commit('setresume', resume)
         console.log(resume);
       } catch (error) {
@@ -44,7 +43,6 @@ export default createStore({
       try {
         let res = await fetch(dataURL)
         let {education} = await res.json()
-        // once the value is updated, it saves the value using commit
         context.commit('seteducation', education)
       } catch (error) {
         console.log(error);
@@ -54,7 +52,6 @@ export default createStore({
       try {
         let res = await fetch(dataURL)
         let {testimonials} = await res.json()
-        // once the value is updated, it saves the value using commit
         context.commit('settestimonials', testimonials)
       } catch (error) {
         console.log(error);
@@ -64,7 +61,6 @@ export default createStore({
       try {
         let res = await fetch(dataURL)
         let {skills} = await res.json()
-        // once the value is updated, it saves the value using commit
         context.commit('setskills', skills)
       } catch (error) {
         console.log(error);
@@ -74,7 +70,6 @@ export default createStore({
       try {
         let res = await fetch(dataURL)
         let {projects} = await res.json()
-        // once the value is updated, it saves the value using commit
         context.commit('setprojects', projects)
       } catch (error) {
         console.log(error);
