@@ -7,13 +7,13 @@
   
   <div class="star-container">
     <h1> Hi, i am Veronique</h1>
+    <div class="twinkle">
+    </div>
     <div>
       <p class="typingEffect">
         Aspiring Full Stack Developer
       </p>
     </div>
-  </div>
-  <div class="twinkle">
   </div>
 </div>
 </template>
@@ -58,10 +58,10 @@ export default {
   }
 }
 
-/* .twinkle {
+.twinkle {
   animation: move-background 100s linear infinite;
   background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/twinkling.png') repeat;
-} */
+}
 
 .star-container {
   background: black url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png') repeat;
