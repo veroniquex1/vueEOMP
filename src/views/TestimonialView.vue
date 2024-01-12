@@ -111,13 +111,14 @@ She is not only a skilled aspiring programmer but also an excellent collaborator
 
 #testimonialPage{
     width: 100%;
-    height: 100vh;
+    height: fit-content;
 }
 
 h1, h5{
     font-family: 'Star Wars', sans-serif;
     text-decoration: underline ;
     text-align: center;
+    color: rgba(18,219,254,255);
 
 }
 

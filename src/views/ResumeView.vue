@@ -122,7 +122,7 @@
 
 #resumePage{
     width: 100%;
-    height: 100vh;
+    height: fit-content;
     /* background-image: url(https://i.ibb.co/4MKwrmL/HD-wallpaper-black-stars-black-aesthetic.jpg); */
     
 }

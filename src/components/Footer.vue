@@ -30,7 +30,7 @@
     position: relative;
     text-align: center;
     bottom: 0;
-    padding-top: 20%
+    /* padding-top: 25% */
 
 }
 
