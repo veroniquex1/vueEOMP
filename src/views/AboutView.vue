@@ -1,11 +1,11 @@
 <template>
-  <div class="aboutContent bg-black">
-    <div class="star-container">
+  <div class="aboutContent ">
+    <!-- <div class="star-container">
     <h1>ABoUT</h1>
   </div>
   <div class="twinkle">
   </div>
-    <h1 class="glow">About</h1>
+    <h1 class="glow">About</h1> -->
   
 
   <!-- <div class="container" id="aboutCard">
@@ -50,9 +50,10 @@
 
 .aboutContent{
   font-family: 'Star Wars', sans-serif;
-  background-color: black;
+  /* background-color: black; */
   width: 100%;
   height: 100vh;
+  background-image: url(https://i.ibb.co/4MKwrmL/HD-wallpaper-black-stars-black-aesthetic.jpg);
   
 }
 
