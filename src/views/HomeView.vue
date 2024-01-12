@@ -19,8 +19,6 @@
       <!-- <div class="twinkle"></div> -->
     </div>
   </div>
-
-  <!-- Main Content -->
 </template>
 
 <script>
@@ -82,10 +80,10 @@ align-items: center;}
   }
 }
 
-/* .twinkle {
+.twinkle {
   animation: move-background 100s linear infinite;
   background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/twinkling.png') repeat;
-} */
+}
 
 /* .star-container {
   background: black url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png') repeat;
@@ -129,5 +127,16 @@ h1{
 @keyframes typing {
   from { width: 0 }
   to { width: 100% }
+}
+.typingEffect {
+  animation: typing 2s steps(30) forwards;
+}
+@keyframes blink {
+  0%, 45% {
+    border-color: transparent;
+  }
+  50%, 100% {
+    border-color: white;
+  }
 }
 </style>
