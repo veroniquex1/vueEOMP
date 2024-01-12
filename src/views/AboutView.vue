@@ -1,10 +1,8 @@
 <template>
   <div class="row">
-            <h2 class="display-2">Projects</h2>
+            <h2 class="display-2">ABoUT</h2>
         </div>
   <div class="aboutPage">
-    <h1>ABoUT</h1>
-
   <div class="row justify-content-start align-content-center pb-5">
             <div class="row vh-100 my-3 d-block d-sm-flex g-2 ms-2">
               <div class="col w-25">
@@ -24,6 +22,11 @@
                   not likely to wait for an opportunity to come to me but rather
                   create one and not give up until I achieve what I set out to.
                 </p>
+                <h5>Post High School</h5>
+                <p>I matriculated in 2015 from Sans Souci Girls’ High School.
+                    Directly after high school I spent a year tutoring high
+                    school students. After tutoring, I started my first job in
+                    sales, selling insurance for Vodacom.</p>
                 <h2 class="p-3">Hobbies</h2>
                 <p>
                   Some of my hobbies include:
@@ -80,8 +83,17 @@ h1, h2{
   
 }
 
+h5{
+  font-family: 'Star Wars', sans-serif;
+  padding: 30px;
+  text-align: center;
+  color: rgba(18,219,254,255);
+  text-decoration: underline solid  5px;
+}
+
 #about-image{
   border-radius: 5px;
+  padding: 10px;
 }
 
 
