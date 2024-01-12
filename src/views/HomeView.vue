@@ -1,15 +1,19 @@
 <template class="homePage">
   <div class="home">
     <div class="row" id="homeContent">
-      <div class="container-fluid fade-in-image">
-       <img src="https://i.ibb.co/8X2SqH4/star-wars-jedi-knight-jedi-academy-the-new-jedi-order-logo-war-2ef100af941da4d519f9c8ca4c04a3eb.png">
-      
-    </div>
-      <h1> Hi, i am Veronique</h1>
-      <div>
-        <p class="typingEffect">
-          Aspiring Full Stack Developer
-        </p>
+      <div class="col">
+        <div class="container-fluid fade-in-image ">
+         <img src="https://i.ibb.co/8X2SqH4/star-wars-jedi-knight-jedi-academy-the-new-jedi-order-logo-war-2ef100af941da4d519f9c8ca4c04a3eb.png">
+        
+      </div>
+      </div>
+      <div class="col">
+        <h1> Hi, i'm <span class="fade-in-image" id="name">Veronique Nappie</span></h1>
+        <div>
+          <p class="typingEffect">
+            Aspiring Full Stack Developer
+          </p>
+        </div>
       </div>
   </div>
   </div>
@@ -105,5 +109,11 @@ h1{
   50%, 100% {
     border-color: white;
   }
+}
+
+#name{
+  color: black;
+  text-decoration: underline;
+
 }
 </style>

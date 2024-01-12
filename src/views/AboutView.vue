@@ -96,5 +96,10 @@ h5{
   padding: 10px;
 }
 
+img:hover { 
+  color: #111;  
+  background:rgba(18,219,254,255);
+  box-shadow: 0 0 100px rgba(18,219,254,255);  
+}
 
 </style>
