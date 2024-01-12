@@ -1,9 +1,12 @@
 <template>
     <div class="container" id="resumePage">
         <div class="row">
-            <div v-if="resume"></div>
-            <!-- <h2 class="">Resume</h2> -->
+            <h2 class="display-2">Resume</h2>
         </div>
+        <!-- <div class="row">
+            <div v-if="resume"></div>
+            <h2 class="">Resume</h2>
+        </div> -->
           <div class="work-row" id="work">
             <div class="left-work">
               <h1>Work</h1>
@@ -120,14 +123,35 @@
 #resumePage{
     width: 100%;
     height: 100vh;
-    font-family: 'Star Wars', sans-serif;
-    color: rgba(18,220,246,255);;
     /* background-image: url(https://i.ibb.co/4MKwrmL/HD-wallpaper-black-stars-black-aesthetic.jpg); */
-
+    
 }
 
 img{
     width: 50px;
     height: 50px;
 }
+
+h1, h2, h6{
+    font-family: 'Star Wars', sans-serif;
+    color: rgba(18,220,246,255);
+    text-decoration: underline;
+    text-align: center;
+
+    
+}
+
+h1{
+    padding: 20px;
+}
+
+h2{
+    padding: 20px;
+}
+
+/* #icon{
+    margin-top: 5px;
+    margin-bottom: 5px;
+} */
+
 </style>

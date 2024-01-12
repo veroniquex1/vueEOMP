@@ -3,21 +3,15 @@
     <div class="row" id="homeContent">
       <div class="container-fluid fade-in-image">
        <img src="https://i.ibb.co/8X2SqH4/star-wars-jedi-knight-jedi-academy-the-new-jedi-order-logo-war-2ef100af941da4d519f9c8ca4c04a3eb.png">
-      </div>
-    
-    
-      <!-- <div class="card" ">
-      <img src="https://i.ibb.co/mqSg9bR/20240110-140911-720.jpg" class="card-img-top" alt="image1">
-    </div> -->
-        <h1> Hi, i am Veronique</h1>
-        <div>
-          <p class="typingEffect">
-            Aspiring Full Stack Developer
-          </p>
-        </div>
-      <!-- <div class="star-container"></div> -->
-      <!-- <div class="twinkle"></div> -->
+      
     </div>
+      <h1> Hi, i am Veronique</h1>
+      <div>
+        <p class="typingEffect">
+          Aspiring Full Stack Developer
+        </p>
+      </div>
+  </div>
   </div>
 </template>
 
@@ -47,9 +41,12 @@ export default {
   box-sizing: border-box;
 }
 
-.home{
+.homePage{
   width: 100%;
   height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #homeContent{
