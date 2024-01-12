@@ -1,9 +1,9 @@
 <template>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbar">
+    <nav class="navbar navbar-expand-lg" id="navbar">
    <div class="container-fluid">
      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
      <router-link to="/">
-         <img class="img-fluid" src="https://drive.google.com/uc?id=1783jHj9J4C9RwccJVdQbVaVAa4uYgl06" alt="logo" id="logo" loading="lazy">
+         <img class="img-fluid" src="https://i.ibb.co/8X2SqH4/star-wars-jedi-knight-jedi-academy-the-new-jedi-order-logo-war-2ef100af941da4d519f9c8ca4c04a3eb.png" alt="logo" id="logo" loading="lazy">
      </router-link>
      <!-- replace the a tag with the router link for the home page -->
  
@@ -78,11 +78,14 @@
 
 #navbar {
   font-family: 'Star Wars', sans-serif;
+  background-color: black !important;
+  /* width: 100% !important; */
+  /* color: rgba(12,223,248,255) !important; */
   
 }
 
-.navitem {
-  color: blue !important;
+ul *{
+  color: rgba(23,222,251,255) !important;
 }
 
  
