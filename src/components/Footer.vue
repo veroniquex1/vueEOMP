@@ -1,5 +1,5 @@
 <template>
-    <div class="container-fluid">
+    <div class="container-fluid" id="footer">
         <div class="row">
             <p class="lead">Veronique's Portfolio &copy;
                 <span> {{ currYear}}</span>
@@ -22,12 +22,16 @@
 </script>
 
 <style scoped>
-.row{
+#footer{
     /* background-color: black; */
     color: rgba(23,222,251,255);
     font-family: 'Star Wars', sans-serif;
+    width: 100%;
     position: relative;
+    text-align: center;
     bottom: 0;
+    padding-top: 20%
+
 }
 
 

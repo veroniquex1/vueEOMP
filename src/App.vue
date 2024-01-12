@@ -1,11 +1,11 @@
 <template>
+  <NavBar/>
   <main class="container-fluid">
-    <NavBar/>
     
     <router-view/>
     
-    <Footer/>
   </main>
+  <Footer/>
 </template>
 
 <script>
