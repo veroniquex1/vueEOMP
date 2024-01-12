@@ -122,4 +122,9 @@ h1, h5{
 
 }
 
+.card:hover { 
+  color: #111;  
+  /* background:rgba(18,219,254,255); */
+  box-shadow: 0 0 50px rgba(18,219,254,255);  
+}
 </style>
