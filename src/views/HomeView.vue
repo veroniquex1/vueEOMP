@@ -1,7 +1,7 @@
 <template class="homePage">
   <div class="home">
     <div class="row" id="homeContent">
-      <div class="fade-in-image">
+      <div class="container-fluid fade-in-image">
        <img src="https://i.ibb.co/8X2SqH4/star-wars-jedi-knight-jedi-academy-the-new-jedi-order-logo-war-2ef100af941da4d519f9c8ca4c04a3eb.png">
       </div>
     
@@ -55,9 +55,7 @@ export default {
 #homeContent{
   font-family: 'Star Wars', sans-serif;
   display: flex;
- 
-  /* background-image: url(https://i.ibb.co/4MKwrmL/HD-wallpaper-black-stars-black-aesthetic.jpg); */
-  
+   
 }
 
 .fade-in-image { animation: fadeIn 5s; 
@@ -80,38 +78,10 @@ align-items: center;}
   }
 }
 
-.twinkle {
-  animation: move-background 100s linear infinite;
-  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/twinkling.png') repeat;
-}
-
-/* .star-container {
-  background: black url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png') repeat;
-} */
-
-/* .twinkle, .star-container {
-  height: 100%;
-  position: absolute; 
-  width: 100%;
-} */
-
 h1{
   font-size: 80px;
   color: rgba(18,220,246,255);
 }
-
-/* * { color:#fff; text-decoration: none;} */
-
-/* .typingEffect{
-  border-radius: 4px;
-    padding: 20px;
-    height: 70px;
-    color: white;
-    display: flex;
-    margin: 0 auto;
-    align-items: center;
-    width: 350px;
-} */
 
 .typingEffect {
     width: 0;
