@@ -1,5 +1,5 @@
 <template>
-  <div class="aboutContent ">
+  <div class="aboutPage">
     <!-- <div class="star-container">
     <h1>ABoUT</h1>
   </div>
@@ -23,6 +23,9 @@
   </div>
 </div>
   </div> -->
+  <!-- <div class="card" style="width: 25rem;">
+      <img src="https://i.ibb.co/mqSg9bR/20240110-140911-720.jpg" class="card-img-top" alt="image1">
+    </div>
     <div class="col" id="about-text">
                 <p>
                   I’m <span class="fw-bolder">Veronique Nappie</span>, an aspiring full stack web developer. I
@@ -30,7 +33,34 @@
                   not likely to wait for an opportunity to come to me but rather
                   create one and not give up until I achieve what I set out to.
                 </p>
-  </div>
+  </div> -->
+
+  <div class="row justify-content-start align-content-center pb-5">
+            <h2 class="row my-3 mx-1">
+              <span class="" id="about-h2">ABoUT</span>
+            </h2>
+            <div class="row vh-100 my-3 d-block d-sm-flex">
+              <div class="col w-25">
+                <img
+                  src="https://i.ibb.co/mqSg9bR/20240110-140911-720.jpg"
+                  loading="lazy"
+                  class="img-fluid"
+                  id="about-image"
+                  alt="about-image"
+                  style="width: 25rem;"
+                />
+              </div>
+              <!--ABOOUT CHANGES-->
+              <div class="col" id="about-text">
+                <p>
+                  i’m <span class="">Veronique Nappie</span>, an aspiring full stack web developer. i
+                  would consider myself introverted but highly ambitious. I am
+                  not likely to wait for an opportunity to come to me but rather
+                  create one and not give up until I achieve what I set out to.
+                </p>
+              </div>
+            </div>
+          </div>
 </div>
 </template>
 
@@ -48,15 +78,16 @@
   box-sizing: border-box;
 }
 
-.aboutContent{
+.aboutPage{
   font-family: 'Star Wars', sans-serif;
   /* background-color: black; */
   width: 100%;
   height: 100vh;
+  color: rgba(18,219,254,255);
   background-image: url(https://i.ibb.co/4MKwrmL/HD-wallpaper-black-stars-black-aesthetic.jpg);
   
 }
-
+/* 
 @keyframes move-background {
   from {
     left: -1000px
@@ -65,23 +96,23 @@
   to {
     left: 1000px;
   }
-}
-.twinkle {
+} */
+/* .twinkle {
   animation: move-background 100s linear infinite;
   background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/twinkling.png') repeat;
 }
 
 .star-container {
   background: black url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png') repeat;
-}
+} */
 
-.twinkle, .star-container {
+/* .twinkle, .star-container {
   height: 100%;
   position: absolute; 
   width: 100%;
-}
+} */
 #aboutCard *{
-  border: solid 2PX red;
+  /* border: solid 2PX red; */
   height: 80%;
   width: 100% !important; 
   background: transparent !important;
