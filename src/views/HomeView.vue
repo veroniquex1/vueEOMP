@@ -6,7 +6,7 @@
       </div>
     
     
-      <!-- <div class="card" style="width: 25rem;">
+      <!-- <div class="card" ">
       <img src="https://i.ibb.co/mqSg9bR/20240110-140911-720.jpg" class="card-img-top" alt="image1">
     </div> -->
         <h1> Hi, i am Veronique</h1>
