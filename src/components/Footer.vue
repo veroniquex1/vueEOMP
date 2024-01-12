@@ -23,9 +23,11 @@
 
 <style scoped>
 .row{
-    background-color: black;
+    /* background-color: black; */
     color: rgba(23,222,251,255);
     font-family: 'Star Wars', sans-serif;
+    position: relative;
+    bottom: 0;
 }
 
 

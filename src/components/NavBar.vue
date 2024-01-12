@@ -78,7 +78,7 @@
 
 #navbar {
   font-family: 'Star Wars', sans-serif;
-  background-color: black !important;
+  /* background-color: black !important; */
   /* width: 100% !important; */
   /* color: rgba(12,223,248,255) !important; */
   

@@ -56,7 +56,7 @@ export default {
   font-family: 'Star Wars', sans-serif;
   display: flex;
  
-  background-image: url(https://i.ibb.co/4MKwrmL/HD-wallpaper-black-stars-black-aesthetic.jpg);
+  /* background-image: url(https://i.ibb.co/4MKwrmL/HD-wallpaper-black-stars-black-aesthetic.jpg); */
   
 }
 

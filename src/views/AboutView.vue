@@ -84,7 +84,7 @@
   width: 100%;
   height: 100vh;
   color: rgba(18,219,254,255);
-  background-image: url(https://i.ibb.co/4MKwrmL/HD-wallpaper-black-stars-black-aesthetic.jpg);
+  /* background-image: url(https://i.ibb.co/4MKwrmL/HD-wallpaper-black-stars-black-aesthetic.jpg); */
   
 }
 /* 
